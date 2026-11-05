@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday, Riya!</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="musicBtn" aria-label="Sound on or off"><span id="mIcon">&#128266;</span> Music</button>
+<div id="bg"></div>
+
+<section class="stage active" id="s1">
+  <div class="wrap">
+    <h1 id="wish">Happy Birthday, Riya! 🎂🎈</h1>
+    <p class="sub">I made something just for you. Tap anywhere to sprinkle some love</p>
+    <p class="sub">A Friend like you is a gift</p>
+    <div class="gal-land" id="gl"></div>
+    <button id="b1">See your surprise</button>
+  </div>
+</section>
+
+<section class="stage" id="s2">
+  <p class="sub" id="balText">Pop all 5 balloons!</p>
+  <div id="sky"></div>
+</section>
+
+<section class="stage" id="s3">
+  <p class="sub" id="cakeText">Tap the candles to blow them out</p>
+  <div class="cakewrap" id="cake">
+    <div class="half l" id="hl"></div>
+    <div class="half r" id="hr"></div>
+    <button class="cd" style="left:39.7%" aria-label="Blow out candle"></button>
+    <button class="cd" style="left:50%" aria-label="Blow out candle"></button>
+    <button class="cd" style="left:60.3%" aria-label="Blow out candle"></button>
+    <div class="knife"><i></i><b></b></div>
+  </div>
+  <button id="b2" hidden>Cut the cake</button>
+</section>
+
+<section class="stage" id="s4">
+  <p class="sub">A letter has arrived for you</p>
+  <button class="env" id="env" aria-label="Open the envelope">
+    <div class="back"></div><div class="letter"></div><div class="front"></div><div class="flap"></div><div class="seal">&#9829;</div>
+  </button>
+  <p class="sub">Tap the envelope to open it</p>
+</section>
+
+<section id="msg" aria-live="polite">
+  <div class="card">
+    <div class="gal" id="g1"></div>
+    <h2>Happy Birthday, Riya! ❤️</h2>
+    <p>Jani jonmodine toke onekei suveccha janabe kintu ami chai amr suvechha ta tor kache aktu alada hok. Karon tui amr kache r panchta sadharon manusher moto noi tui amr kache sotti onek ta special. Ajker ai bises dine tor proti amr aktai chaoa tor mukher hasi ta jno kokhono hariye na jai. Jibone jotoi kosto asuk na kno sukh jno tor hat ta sokto kore dhore rakhe. R kokhono jodi tor mon kharap hoi tahole sudhu atuku mone rakhis je shamik naamer keu akjon ache je sotti tor valo thakata mon theke chai. R se sobsomoi tor pase theke toke support korte chai j kono rokom situation a.</p>
+
+<p>Jonmodiner onek onek suvechha roilo priyo. Tor jonmodiner motoi tor jibon tau sundor hoye uthuk. Tor protita sopno sotti hok r tor protita ichha puron hok. Vhole babar kache mon theke pray kori jibone jno sukher ovab na hoi tor. Sobsomoi valo thakis hasi khusi thakis. </p>
+
+<p>Janis to tor moto akta meyer sathe porichoy hoye ami nijeke khub lucky mone kori. Tor sathe karor tulona hoi na. Tui sotti sobar theke alada. Hoito tor sathe amr r ager moto otota valo kore kotha hoi na kintu akhon jotota hoi tatei amr saradinta valo hoye jai. Call a hok ba message a tor sathe kotha bolte amr khub khub khub valo lage, ato ta valo lage je toke bole bojhate parbona ami. Tui amr life a asar por amr sathe onek valo valo ghotona ghoteche. Jmn dhor tor sathe porichoy houar por amr MCA result review te ager theke onekta bere gache. Onek interview call asche. Amr to mone hoi selected hoye jabo kono akdin. Ami akhon shiv thakurer pujo korte suru korechi jeta age kortam na. Ro onek kichu ache. Ai bisoy gulo sunte hoito khub sadharon kintu amr kache sob gulor alada akta gurutto ache. Tai toke friend hisabe peye ami sotti khub lucky. Sotti bolte tor moto ato valo moner manush r akta khuje paoa khubi kothin. Tui amr lucky charm.</p> 
+
+<p>Jedin first jante pari je tor birthday 7 November sedin thekei mone mone onek kichu plan kore rekhechilam, vebechilam tor ai special din ta aktu onno rokom vabe special kore tulbo. Kintu ses porjonto seigulor kichui r successful korte parlam na.</p> 
+
+<p>Janis to akta afsos amr vison hoi je tor sathe amr hoito konodin dakhai hobe na. Tobe akta jinis sobsomoi janbi je tor proti amr bondutto bol ba valobasa konotai kombe na joto din jabe seta bartei thakbe. Hote pare tui amr vagge nei kintu ami vul manush ke valobasini r kono vul korioni. Tai toke bolte chai je amr dik theke tor jonno bondutto r valobasa sobsomoi thakbe.</p> 
+
+<p>Jai hok aj tor birthday, sudhu chai tui nijer jibone onek valo thakis, onek dur agiye jaa. Jibone amn sob anondo khuje pa je gulor jonno toke kokhono mon kharap korte na hoi. R amader friendship ta jno kokhono hariye na jai.</p>
+
+<p>Aro akbar Happy Birthday, my Dear Riya! ❤️</p>
+
+<p>Many Many Happy Returns of the Day.</p>
+    <div class="gal" id="g2"></div>
+    <p class="sign">Take Care ❤️</p>
+  </div>
+</section>
+
+<template id="cakeSvg">
+<svg viewBox="0 0 300 260" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="150" cy="238" rx="140" ry="16" fill="#f3c6d5"/>
+  <rect x="30" y="160" width="240" height="75" rx="10" fill="#ff9fc0"/>
+  <path d="M30 160q15 30 30 0t30 0 30 0 30 0 30 0 30 0 30 0 30 0v-14H30z" fill="#fff"/>
+  <rect x="75" y="95" width="150" height="62" rx="10" fill="#ffc2d6"/>
+  <path d="M75 105q12 24 25 0t25 0 25 0 25 0 25 0v-14H75z" fill="#fff"/>
+  <g fill="#e0527f"><circle cx="60" cy="205" r="7"/><circle cx="110" cy="215" r="7"/><circle cx="190" cy="215" r="7"/><circle cx="240" cy="205" r="7"/><circle cx="105" cy="130" r="5"/><circle cx="150" cy="138" r="5"/><circle cx="195" cy="130" r="5"/></g>
+  <g fill="#8a2c56"><rect x="115" y="62" width="8" height="32" rx="2"/><rect x="146" y="62" width="8" height="32" rx="2"/><rect x="177" y="62" width="8" height="32" rx="2"/></g>
+  <g fill="#ffb627"><path class="flame" d="M119 40q9 12 0 20q-9-8 0-20z"/><path class="flame" d="M150 40q9 12 0 20q-9-8 0-20z"/><path class="flame" d="M181 40q9 12 0 20q-9-8 0-20z"/></g>
+</svg>
+</template>
+
+<script src="script.js"></script>
+</body>
+</html>
